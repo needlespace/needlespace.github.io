@@ -1,0 +1,16 @@
+{
+  "products": [
+    { "id": "Black", "price": 12.00, "maxQuantity": 6, "description": "Black Needle Space" },
+    { "id": "White", "price": 12.00, "maxQuantity": 6, "description": "White Needle Space" },
+    { "id": "Silver", "price": 12.00, "maxQuantity": 6, "description": "Silver Needle Space" },
+    { "id": "Blue", "price": 12.00, "maxQuantity": 6, "description": "Blue Needle Space" }
+  ],
+  "defaults": {
+    "maxQty": 6,
+    "shippingTiers": [
+      { "max": 3, "cost": 5.00 },
+      { "max": 6, "cost": 8.00 }
+    ],
+    "currency": "USD"
+  }
+}
