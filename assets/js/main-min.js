@@ -1,0 +1,1 @@
+window.addEventListener("scroll",(function(){const e=window.scrollY;document.querySelector(".header-inner").style.transform=`translateY(${.2*e}px)`}));

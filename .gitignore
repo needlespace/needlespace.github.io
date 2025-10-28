@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Environment files (secrets should not be committed)
+.env
+.env.local
+.env.production
+
+# macOS
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+.codekit3
+
+# Logs
+*.log
